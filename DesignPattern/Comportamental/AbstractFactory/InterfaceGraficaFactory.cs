@@ -7,8 +7,9 @@ using System.Threading.Tasks;
 namespace DesignPattern.Comportamental.AbstractFactory
 {
     //Abstract factory
-    public abstract class CriarInterfaceGrafica
+    public abstract class InterfaceGraficaFactory
     {
-        public abstract CriarInterfaceGrafica CriarInterface(ETipoInterface tipoInterface);
+        //devolve a instância do objeto que quero criar.
+        public abstract InterfaceSO CriarInterface(ETipoInterface tipoInterface, string descricaoOS);
     }
 }
