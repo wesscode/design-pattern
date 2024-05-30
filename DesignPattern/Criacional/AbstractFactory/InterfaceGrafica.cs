@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DesignPattern.Comportamental.AbstractFactory
+namespace DesignPattern.Criacional.AbstractFactory
 {
     // Client
     public class InterfaceGrafica
@@ -19,6 +19,7 @@ namespace DesignPattern.Comportamental.AbstractFactory
         {
             _interfaceSO.Botao(_interfaceSO.TipoInterface);
             _interfaceSO.Sobre(_interfaceSO.DescricaoOS);
+            Console.WriteLine("--------------------------");
         }
     }
 

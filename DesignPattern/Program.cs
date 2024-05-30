@@ -11,7 +11,7 @@
 
 
 
-using DesignPattern.Comportamental.AbstractFactory;
+using DesignPattern.Criacional.AbstractFactory;
 
 List<InterfaceSO> interfaceSOs = new List<InterfaceSO>()
 {

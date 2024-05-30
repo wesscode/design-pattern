@@ -8,9 +8,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Comportamental\FactoryMethod\" />
-    <Folder Include="Comportamental\Singleton\" />
-    <Folder Include="Criacional\" />
+    <Folder Include="Comportamental\" />
+    <Folder Include="Criacional\FactoryMethod\" />
+    <Folder Include="Criacional\Singleton\" />
     <Folder Include="Estrutural\" />
   </ItemGroup>
 

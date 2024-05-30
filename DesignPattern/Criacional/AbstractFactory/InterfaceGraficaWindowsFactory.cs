@@ -4,14 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DesignPattern.Comportamental.AbstractFactory
+namespace DesignPattern.Criacional.AbstractFactory
 {
     // Concret factory
     public class InterfaceGraficaWindowsFactory : InterfaceGraficaFactory
     {
         public override InterfaceSO CriarInterface(ETipoInterface tipoInterface, string descricaoOS)
         {
-            return CriarInterfaceGrafica.Criar(tipoInterface, descricaoOS) ;
+            return CriarInterfaceGrafica.Criar(tipoInterface, descricaoOS);
         }
     }
 }

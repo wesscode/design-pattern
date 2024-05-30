@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DesignPattern.Comportamental.AbstractFactory
+namespace DesignPattern.Criacional.AbstractFactory
 {
     public enum ETipoInterface
     {
