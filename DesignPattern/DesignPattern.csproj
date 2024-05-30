@@ -8,7 +8,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Comportamental\AbstractFactory\NewFolder\" />
     <Folder Include="Comportamental\FactoryMethod\" />
     <Folder Include="Comportamental\Singleton\" />
     <Folder Include="Criacional\" />
