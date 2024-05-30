@@ -32,7 +32,7 @@ namespace DesignPattern.Comportamental.AbstractFactory
                     return new InterfaceGrafica(new InterfaceGraficaWindowsFactory(), interfaceSO);
                 case ETipoInterface.MacOS:
                     return new InterfaceGrafica(new InterfaceGraficaWindowsFactory(), interfaceSO);
-                default
+                default:
                     throw new ApplicationException("Opção inválida.");
             }
         }

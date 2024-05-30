@@ -11,15 +11,12 @@
 
 
 
+using DesignPattern.Comportamental.AbstractFactory;
 
-/*
- * 
- * cliente pode criar um produto apartir da fabrica abstrata e diretamente do produto
-    InterfaceGrafica
-    Windows ou Mac
-   criarBotão()
-   criarDialogo()
+List<InterfaceSO> interfaceSOs = new List<InterfaceSO>()
+{
+   CriarInterfaceGrafica.Criar(ETipoInterface.Windows, "Windows é um sistema que lhe garante a alta produtividade."),
+   CriarInterfaceGrafica.Criar(ETipoInterface.MacOS, "Mac é um sistema ótimizado.")
+};
 
-
- 
- */
+interfaceSOs.ForEach(v => CriarInterface.Criar(v).ClickBotao());
