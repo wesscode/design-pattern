@@ -9,7 +9,6 @@
 
   <ItemGroup>
     <Folder Include="Comportamental\" />
-    <Folder Include="Criacional\Singleton\" />
     <Folder Include="Estrutural\" />
   </ItemGroup>
 

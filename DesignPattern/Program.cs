@@ -2,8 +2,10 @@
 
 using DesignPattern.Criacional.AbstractFactory;
 using DesignPattern.Criacional.FactoryMethod;
+using DesignPattern.Criacional.Singleton;
 
 
-ExecutarAbstractFactory.Executar();
-ExecutarFactoryMethod.Executar();
+//ExecutarAbstractFactory.Executar();
+//ExecutarFactoryMethod.Executar();
+ExecutarSingleton.Executar();
 
