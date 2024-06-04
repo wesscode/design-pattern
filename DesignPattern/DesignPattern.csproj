@@ -9,7 +9,8 @@
 
   <ItemGroup>
     <Folder Include="Comportamental\" />
-    <Folder Include="Estrutural\" />
+    <Folder Include="Estrutural\Adapter\" />
+    <Folder Include="Estrutural\Composite\" />
   </ItemGroup>
 
 </Project>

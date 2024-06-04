@@ -3,9 +3,10 @@
 using DesignPattern.Criacional.AbstractFactory;
 using DesignPattern.Criacional.FactoryMethod;
 using DesignPattern.Criacional.Singleton;
+using DesignPattern.Estrutural.Facade;
 
 
 //ExecutarAbstractFactory.Executar();
 //ExecutarFactoryMethod.Executar();
-ExecutarSingleton.Executar();
-
+//ExecutarSingleton.Executar();
+ExecucaoFacade.Executar();
