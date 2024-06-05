@@ -4,6 +4,7 @@ using DesignPattern.Criacional.AbstractFactory;
 using DesignPattern.Criacional.FactoryMethod;
 using DesignPattern.Criacional.Singleton;
 using DesignPattern.Estrutural.Adapter;
+using DesignPattern.Estrutural.Composite;
 using DesignPattern.Estrutural.Facade;
 
 
@@ -11,4 +12,5 @@ using DesignPattern.Estrutural.Facade;
 //ExecutarFactoryMethod.Executar();
 //ExecutarSingleton.Executar();
 //ExecucaoFacade.Executar();
-ExecucaoAdapter.Executar();
+//ExecucaoAdapter.Executar();
+ExecucaoComposite.Executar();
