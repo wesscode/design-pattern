@@ -1,5 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
+using DesignPattern.Comportamental;
 using DesignPattern.Criacional.AbstractFactory;
 using DesignPattern.Criacional.FactoryMethod;
 using DesignPattern.Criacional.Singleton;
@@ -13,4 +14,5 @@ using DesignPattern.Estrutural.Facade;
 //ExecutarSingleton.Executar();
 //ExecucaoFacade.Executar();
 //ExecucaoAdapter.Executar();
-ExecucaoComposite.Executar();
+//ExecucaoComposite.Executar();
+ExecucaoCommand.Executar();
