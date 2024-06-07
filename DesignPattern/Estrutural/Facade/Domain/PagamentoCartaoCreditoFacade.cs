@@ -6,11 +6,11 @@ namespace DesignPattern.Estrutural.Facade.Domain
      Classe facade onde isola toda a integração com o meio de pagamento,
      e se eventualmente mudar a forma de pagmaento, todo o código de manutenção está centralizado nessa classe.
      */
-    public class PagamentoCartaoCreditorFacade : IPagamentoCartaoCreditorFacade
+    public class PagamentoCartaoCreditoFacade : IPagamentoCartaoCreditoFacade
     {
         private readonly IPayPalGateway _payPalGateway;
         private readonly IConfigurationManager _configurationManager;
-        public PagamentoCartaoCreditorFacade(IPayPalGateway payPalGateway, IConfigurationManager configurationManager)
+        public PagamentoCartaoCreditoFacade(IPayPalGateway payPalGateway, IConfigurationManager configurationManager)
         {
             _payPalGateway = payPalGateway;
             _configurationManager = configurationManager;

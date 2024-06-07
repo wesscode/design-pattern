@@ -26,7 +26,7 @@ namespace DesignPattern.Estrutural.Facade
             };
 
             // Resolva com DI
-            var pagamentoService = new PagamentoCartaoCreditoServices(new PagamentoCartaoCreditorFacade(new PayPalGateway(), new ConfigurationManager()));
+            var pagamentoService = new PagamentoCartaoCreditoService(new PagamentoCartaoCreditoFacade(new PayPalGateway(), new ConfigurationManager()));
             var pagamentoResult = pagamentoService.RealizarPagamento(pedido, pagamento);
 
             Console.WriteLine(pagamentoResult.Status);

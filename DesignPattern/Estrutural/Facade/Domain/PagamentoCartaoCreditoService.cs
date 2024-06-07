@@ -1,9 +1,9 @@
 ﻿namespace DesignPattern.Estrutural.Facade.Domain
 {
-    public class PagamentoCartaoCreditoServices : IPagamento
+    public class PagamentoCartaoCreditoService : IPagamento
     {
-        private readonly IPagamentoCartaoCreditorFacade _pagamentoCartaoCreditorFacade;
-        public PagamentoCartaoCreditoServices(IPagamentoCartaoCreditorFacade pagamentoCartaoCreditorFacade)
+        private readonly IPagamentoCartaoCreditoFacade _pagamentoCartaoCreditorFacade;
+        public PagamentoCartaoCreditoService(IPagamentoCartaoCreditoFacade pagamentoCartaoCreditorFacade)
         {
             _pagamentoCartaoCreditorFacade = pagamentoCartaoCreditorFacade;
         }
