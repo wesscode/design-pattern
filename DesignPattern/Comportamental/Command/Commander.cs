@@ -1,4 +1,4 @@
-﻿namespace DesignPattern.Comportamental
+﻿namespace DesignPattern.Comportamental.Command
 {
     public abstract class Commander
     {

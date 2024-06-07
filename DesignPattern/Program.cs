@@ -1,6 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
-using DesignPattern.Comportamental;
+using DesignPattern.Comportamental.Command;
 using DesignPattern.Criacional.AbstractFactory;
 using DesignPattern.Criacional.FactoryMethod;
 using DesignPattern.Criacional.Singleton;
